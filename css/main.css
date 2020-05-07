@@ -104,6 +104,11 @@ header {
 	align-items: center;
 }
 
+.head-line {
+	padding-bottom:40px;
+}
+
+
 header .content-wrapper {
 	padding-top:20px;
 	width:80%;
@@ -208,7 +213,7 @@ main figure {
 	justify-content: center;
 	align-items:center;
 	width:100%;
-	padding-bottom: 60px;
+	padding-bottom: 50px;
 }
 
 .design-work p {
@@ -540,7 +545,7 @@ footer .header-divider {
 	.design-work {
 		align-items:flex-start;
 		width:100%;
-		padding-bottom: 0;
+		padding-bottom: 140px;
 	}
 	
 	.design-work p {
@@ -573,6 +578,10 @@ footer .header-divider {
 		flex-direction:column;
 		align-items: flex-start;
 		width:50%;
+	}
+	
+	.footer-separator p {
+		font-size: 20px;
 	}
 	
 	.contact {
