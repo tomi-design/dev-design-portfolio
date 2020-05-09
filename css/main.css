@@ -415,12 +415,13 @@ footer .header-divider {
 		display:flex;
 		flex-direction: column;
 		width:80%;
+		padding-top:70px;
 	}
 	
 	.header-container {
 		display:flex;
 		flex-direction: row-reverse;
-		align-items: center;
+		align-items: flex-start;
 	}
 	
 	header nav {
@@ -431,12 +432,19 @@ footer .header-divider {
 		width:50%;
 	}	
 	
+	header nav a {
+		padding-left:30px;
+		font-size: 24px;
+	}
+	
 	header h1 {
 		font-size: 26px;
+		margin:0;
 	}
 	
 	header p {
-		font-size: 19px;
+		font-size: 22px;
+		color:#F69D8E;
 	}
 	
 	.head-line {
@@ -445,13 +453,13 @@ footer .header-divider {
 	
 	.head-line p {
 		margin:0;
-		font-size: 22px;
+		font-size: 24px;
 		color:#8B8B8B;
 		width:100%;
 	}
 	
 	.title {
-		margin-top:150px;
+		margin-top:160px;
 		color:#8B8B8B;
 	}
 	
@@ -461,10 +469,7 @@ footer .header-divider {
 	}
 	
 	
-	header nav a {
-		padding-left:30px;
-		font-size: 20px;
-	}
+	
 	
 	main .content-wrapper {
 		width:80%;
@@ -490,22 +495,43 @@ footer .header-divider {
 	.text-one:after {
 		display:block;
 		white-space: pre;
-		content:'Jubilee Austen Project / \A HTML 5 & CSS Website \A This is a project based on a photoshop \A design comp. This webpage is ideal \A for portfolios and small businesses.';
+		content:'Jubilee Austen Project / \A HTML 5 & CSS Website';
 		font-family: 'Cutive Mono', monospace;
 		width:30%;
 		margin:0;
 		color:#8B8B8B;
 		font-size: 18px;
+		padding-bottom:40px;
 	}
 	
+	.text-info-one:before {
+		display:block;
+		white-space: pre;
+		content:'This is a project based on a photoshop \A design comp. This webpage is ideal \A for portfolios and small businesses.';
+		font-family: 'Cutive Mono', monospace;
+		width:30%;
+		color:#8B8B8B;
+		font-size: 18px;
+	}
 	
 	.text-two:after {
 		display:block;
 		white-space: pre;
-		content:'Rogue Pickings Website / \A HTML5 & CSS from Photoshop Design Comp \A A clean, organized webpage created \A through the use of a design comp \A for a food truck company.';
+		content:'Rogue Pickings Website /';
 		font-family: 'Cutive Mono', monospace;
 		width:30%;
 		margin:0;
+		color:#8B8B8B;
+		font-size: 18px;
+		padding-bottom: 40px;
+	}
+	
+	.text-info-two:before {
+		display:block;
+		white-space: pre;
+		content:'From Photoshop Design Comp. \A A clean, organized webpage created \A through the use of a design comp \A for a food truck company.';
+		font-family: 'Cutive Mono', monospace;
+		width:30%;
 		color:#8B8B8B;
 		font-size: 18px;
 	}
@@ -513,11 +539,24 @@ footer .header-divider {
 	.text-three:after {
 		display:block;
 		white-space: pre;
-		content:'Unplugged Retreat / \A A multi-paged, responsive site.\A Perfect for organizations and events.';
+		content:'Unplugged Retreat /';
 		font-family: 'Cutive Mono', monospace;
+		width:30%;
+		color:#8B8B8B;
+		font-size: 18px;
+		padding-bottom:20px;
+	}
+	
+	.text-info-three:before {
+		display:block;
+		white-space: pre;
+		content:'\A A multi-paged, responsive site.\A Perfect for organizations and events.';
+		font-family: 'Cutive Mono', monospace;
+		width:30%;
 		color:#8B8B8B;
 		font-size: 18px;
 	}
+	
 	
 	.dev-work {
 		display:flex;
@@ -545,12 +584,12 @@ footer .header-divider {
 	.design-work {
 		align-items:flex-start;
 		width:100%;
-		padding-bottom: 140px;
+		padding: 70px 0 140px 0;
 	}
 	
 	.design-work p {
-		color:#8B8B8B;
-		font-size: 19px;
+		color: #F69D8E;
+		font-size: 22px;
 	}
 	
 	.design-work figure {
