@@ -443,7 +443,7 @@ footer .header-divider {
 	}
 	
 	header p {
-		font-size: 22px;
+		font-size: 24px;
 		color:#F69D8E;
 	}
 	
@@ -500,7 +500,7 @@ footer .header-divider {
 		width:30%;
 		margin:0;
 		color:#8B8B8B;
-		font-size: 18px;
+		font-size: 20px;
 		padding-bottom:40px;
 	}
 	
@@ -511,7 +511,7 @@ footer .header-divider {
 		font-family: 'Cutive Mono', monospace;
 		width:30%;
 		color:#8B8B8B;
-		font-size: 18px;
+		font-size: 20px;
 	}
 	
 	.text-two:after {
@@ -522,7 +522,7 @@ footer .header-divider {
 		width:30%;
 		margin:0;
 		color:#8B8B8B;
-		font-size: 18px;
+		font-size: 20px;
 		padding-bottom: 40px;
 	}
 	
@@ -533,7 +533,7 @@ footer .header-divider {
 		font-family: 'Cutive Mono', monospace;
 		width:30%;
 		color:#8B8B8B;
-		font-size: 18px;
+		font-size: 20px;
 	}
 	
 	.text-three:after {
@@ -543,7 +543,7 @@ footer .header-divider {
 		font-family: 'Cutive Mono', monospace;
 		width:30%;
 		color:#8B8B8B;
-		font-size: 18px;
+		font-size: 20px;
 		padding-bottom:20px;
 	}
 	
@@ -554,7 +554,7 @@ footer .header-divider {
 		font-family: 'Cutive Mono', monospace;
 		width:30%;
 		color:#8B8B8B;
-		font-size: 18px;
+		font-size: 20px;
 	}
 	
 	
@@ -589,7 +589,7 @@ footer .header-divider {
 	
 	.design-work p {
 		color: #F69D8E;
-		font-size: 22px;
+		font-size: 24px;
 	}
 	
 	.design-work figure {
@@ -620,7 +620,7 @@ footer .header-divider {
 	}
 	
 	.footer-separator p {
-		font-size: 20px;
+		font-size: 24px;
 		color:#FF7575;
 	}
 	
@@ -630,6 +630,7 @@ footer .header-divider {
 	
 	.contact p {
 		color:#8B8B8B;
+		font-size: 20px;
 	}
 }
 
