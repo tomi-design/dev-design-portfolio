@@ -74,18 +74,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/*-------MOBILE HEADER STYLES------*/
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.head-line {
-  padding-bottom: 40px;
-}
+
 header .content-wrapper {
   padding-top: 20px;
   width: 80%;
 }
+
 header nav {
   display: flex;
   flex-direction: column;
@@ -95,34 +97,63 @@ header nav {
   width: 90%;
   margin: 0 auto;
 }
+
 header nav a {
   text-decoration: none;
 }
+
 a:link {
   color: #F69D8E;
 }
+
 a:visited {
-  /*color:#949494;*/
   color: #F69D8E;
 }
+
+.head-line {
+  padding-bottom: 40px;
+}
+
 header h1 {
   font-family: 'Open Sans', sans-serif;
   color: #FF7575;
   font-size: 16px;
   font-weight: 600;
 }
-header p {
+
+.head-line p {
+  width: 50%;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 18;
+} /*--- this is so that the web developer/designer title will collapse in the mobile styles*/
+
+.front-end-title p {
   font-family: 'Cutive Mono', monospace;
   font-size: 18;
 }
-.head-line p {
-  width: 50%;
-} /*--- this is so that the web developer/designer title will collapse in the mobile styles*/
+
 header .header-divider {
   width: 100%;
   border: solid black 0.5px;
   opacity: 0.2;
 }
+
+/*-------MOBILE MAIN SECTION------*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+main .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
 .dev-separator {
   display: flex;
   flex-direction: column;
@@ -131,38 +162,20 @@ header .header-divider {
   width: 80%;
   font-family: 'Cutive Mono', monospace;
 }
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-}
-main .content-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-}
+
 main figure {
   padding-top: 10px;
   padding-bottom: 50px;
 }
+
 .dev-work img {
   box-shadow: 10px 10px 12px lightgrey;
 }
-.separator {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  width: 80%;
-  padding-bottom: 30px;
+
+.text-container {
+  display:none;
 }
-.separator .header-divider {
-  width: 100%;
-  border: solid black 0.5px;
-  opacity: 0.2;
-}
+
 .design-work {
   display: flex;
   flex-direction: column;
@@ -171,45 +184,72 @@ main figure {
   width: 100%;
   padding-bottom: 50px;
 }
+
+.separator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 80%;
+  padding-bottom: 30px;
+}
+
 .design-work p {
   font-family: 'Cutive Mono', monospace;
   font-size: 18;
 }
+
+.separator .header-divider {
+  width: 100%;
+  border: solid black 0.5px;
+  opacity: 0.2;
+}
+
 .design-work img {
   box-shadow: 15px 15px 40px lightgrey;
 }
+
+/*-------MOBILE FOOTER STYLES------*/
+
+
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 70px;
 }
+
 footer .content-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 80%;
 }
+
 footer .header-divider {
   width: 100%;
   border: solid black 0.5px;
   opacity: 0.2;
 }
+
 .footer-separator {
   width: 90%;
 }
+
 .footer-separator p {
   font-family: 'Cutive Mono', monospace;
   font-size: 18;
-  /*color:#FF7575;*/
   color: red;
 }
+
 .contact {
   width: 90%;
 }
+
 .email p {
   font-family: 'Cutive Mono', monospace;
 }
+
 .greeting {
   padding-top: 20px;
 }
@@ -288,48 +328,75 @@ footer .header-divider {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (min-width: 768px) {
+	
+/*-------TABLET HEADER STYLES------*/
+
   header .content-wrapper {
     width: 70%;
     padding-top: 40px;
   }
+	
   header nav {
     width: 100%;
     font-size: 18px;
   }
+	
   header h1 {
     font-size: 18px;
   }
+	
   header p {
     font-size: 18px;
   }
+	
+/*-------TABLET MAIN SECTION------*/
+
+	
   main .content-wrapper {
     width: 86%
   }
+	
   .dev-separator p {
     font-size: 18px;
   }
+	
   .separator p {
     font-size: 18px;
   }
+
+  .text-container {
+	display:none;
+  }
+	
+/*-------TABLET FOOTER STYLES------*/
+
   .footer-separator p {
     font-size: 18px;
   }
+	
   .email p {
     font-size: 18px;
   }
 }
+
+
 @media only screen and (min-width: 1200px) {
+	
+/*-------DESKTOP HEADER STYLES------*/
+
   header .content-wrapper {
     display: flex;
     flex-direction: column;
     width: 80%;
     padding-top: 70px;
   }
+	
   .header-container {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
   }
+	
   header nav {
     flex-direction: row;
     justify-content: flex-end;
@@ -337,41 +404,55 @@ footer .header-divider {
     margin: 0;
     width: 50%;
   }
+	
   header nav a {
     padding-left: 30px;
     font-size: 24px;
   }
+	
   header h1 {
     font-size: 26px;
     margin: 0;
   }
+	
   header p {
     font-size: 24px;
     color: #F69D8E;
   }
+	
   .head-line {
     width: 50%;
   }
+	
   .head-line p {
     margin: 0;
     font-size: 24px;
     color: #8B8B8B;
     width: 100%;
   }
-  .title {
-    margin-top: 160px;
-    color: #8B8B8B;
-  }
+	
+/*-------DESKTOP MAIN SECTION------*/
+
   .header-divider {
     width: 100%;
     margin-bottom: 20px;
   }
+	
   main .content-wrapper {
     width: 80%;
   }
-  .headline {
-    width: 40%;
+
+  .dev-separator {
+    width: 93%;
   }
+	
+  .dev-work {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+	
   .example {
     display: flex;
     flex-direction: row;
@@ -379,130 +460,85 @@ footer .header-divider {
     align-items: center;
     width: 100%;
   }
-  .text-container {
-    width: 40%;
-    padding-left: 100px;
-  }
-  .text-one:after {
-    display: block;
-    white-space: pre;
-    content: 'Jubilee Austen Project / \A HTML 5 & CSS Website';
-    font-family: 'Cutive Mono', monospace;
-    width: 30%;
-    margin: 0;
-    color: #8B8B8B;
-    font-size: 20px;
-    padding-bottom: 40px;
-  }
-  .text-info-one:before {
-    display: block;
-    white-space: pre;
-    content: 'This is a project based on a photoshop \A design comp. This webpage is ideal \A for portfolios and small businesses.';
-    font-family: 'Cutive Mono', monospace;
-    width: 30%;
-    color: #8B8B8B;
-    font-size: 20px;
-  }
-  .text-two:after {
-    display: block;
-    white-space: pre;
-    content: 'Rogue Pickings Website /';
-    font-family: 'Cutive Mono', monospace;
-    width: 30%;
-    margin: 0;
-    color: #8B8B8B;
-    font-size: 20px;
-    padding-bottom: 40px;
-  }
-  .text-info-two:before {
-    display: block;
-    white-space: pre;
-    content: 'From Photoshop Design Comp. \A A clean, organized webpage created \A through the use of a design comp \A for a food truck company.';
-    font-family: 'Cutive Mono', monospace;
-    width: 30%;
-    color: #8B8B8B;
-    font-size: 20px;
-  }
-  .text-three:after {
-    display: block;
-    white-space: pre;
-    content: 'Unplugged Retreat /';
-    font-family: 'Cutive Mono', monospace;
-    width: 30%;
-    color: #8B8B8B;
-    font-size: 20px;
-    padding-bottom: 20px;
-  }
-  .text-info-three:before {
-    display: block;
-    white-space: pre;
-    content: '\A A multi-paged, responsive site.\A Perfect for organizations and events.';
-    font-family: 'Cutive Mono', monospace;
-    width: 30%;
-    color: #8B8B8B;
-    font-size: 20px;
-  }
-  .dev-work {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-bottom: 50px;
-  }
+	
   .dev-work figure {
     margin: 0;
     padding: 70px 0;
     width: 50%;
   }
+	
   .dev-work img {
     width: 100%;
     height: auto;
   }
-  .separator {
-    align-items: flex-start;
-    width: 100%;
+	
+  .text-container {
+	display:block;
+    width: 40%;
+    padding-left: 100px;
+	font-family: 'Cutive Mono', monospace;
+    color: #8B8B8B;
+    font-size: 20px;
   }
+
   .design-work {
     align-items: flex-start;
     width: 100%;
     padding: 70px 0 140px 0;
   }
+	
+  .separator {
+    align-items: flex-start;
+    width: 100%;
+  }
+	
   .design-work p {
     color: #F69D8E;
     font-size: 24px;
   }
+	
   .design-work figure {
     margin: 0;
     width: 50%;
     padding-top: 70px;
   }
+	
   .design-work img {
     width: 100%;
     height: auto;
   }
-  .dev-separator {
-    width: 93%;
-  }
+
+
+/*-------DESKTOP FOOTER SECTION------*/
+
+	
   footer .content-wrapper {
     align-items: flex-start;
   }
+	
   .footer-separator {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 50%;
   }
+	
   .footer-separator p {
     font-size: 24px;
     color: #FF7575;
   }
+	
   .contact {
     width: 100%;
   }
+	
   .contact p {
     color: #8B8B8B;
     font-size: 20px;
   }
 }
+
+
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
