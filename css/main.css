@@ -138,6 +138,53 @@ header .header-divider {
   opacity: 0.2;
 }
 
+
+/*-------MOBILE HEADER STYLES (WORK PAGE)------*/
+
+#about {
+  color:gray;
+  padding:0 30px 0 0;
+}
+
+#main {
+  color:gray;
+}
+
+#workHeaderContainer {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projectHeadLine {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+#skills {
+  display:none;
+}
+
+#workNav {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#workProjects {
+  color: #FF7575;
+}
+
+#feTitle {
+  display:none;  
+}
+
+
 /*-------MOBILE MAIN SECTION------*/
 
 main {
@@ -207,6 +254,87 @@ main figure {
 
 .design-work img {
   box-shadow: 15px 15px 40px lightgrey;
+}
+
+#generatorDescription {
+  display:none;
+}
+
+#feMentorDescription {
+  display:none;
+}
+
+
+/*-------MOBILE MAIN SECTION (WORK PAGE)------*/
+
+#quoteImage {
+  padding-top: 40px;
+}
+
+#workDescBlackboard {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cutive Mono', monospace;
+  color:gray;
+}
+
+.workFigure {
+  padding-bottom: 20px;
+}
+
+#workExample {
+  padding: 80px 0 80px 0;
+}
+
+#apparelDescription {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cutive Mono', monospace;
+  color:gray;
+}
+
+#apparelImg {
+
+}
+#workSkills {
+  color: #F69D8E;
+}
+
+#workContact {
+  color: #F69D8E;
+}
+
+#workEmailSection {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#workEmail {
+  color:gray;
+}
+
+.full-width {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+}
+
+.second-full-width{
+  padding-top:30px;
+}
+
+.full-width p {
+  line-height: 2.5;
+  color: gray;
+  font-size: 14px;
+}
+
+.half-width {
+  display:none;
 }
 
 /*-------MOBILE FOOTER STYLES------*/
@@ -367,6 +495,8 @@ footer .header-divider {
   .text-container {
 	display:none;
   }
+
+ 
 	
 /*-------TABLET FOOTER STYLES------*/
 
@@ -406,7 +536,7 @@ footer .header-divider {
   }
 	
   header nav a {
-    padding-left: 30px;
+    padding-left: 55px;
     font-size: 24px;
   }
 	
@@ -452,7 +582,11 @@ footer .header-divider {
     width: 100%;
     padding-bottom: 50px;
   }
-	
+  
+  #workDescBlackboard {
+    display:none;
+  }
+
   .example {
     display: flex;
     flex-direction: row;
@@ -507,6 +641,61 @@ footer .header-divider {
     width: 100%;
     height: auto;
   }
+
+/*-------DESKTOP MAIN SECTION (WORK PAGE)------*/
+
+#about {
+  color: #FF7575;
+}
+
+#main {
+  color: #FF7575;
+}
+
+#workNav {
+  padding-bottom: 90px;
+}
+
+.half-width {
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+#apparelDescription {
+  display:none;
+}
+
+.second-full-width {
+  display:none;
+}
+
+#workEmailSection {
+  justify-content: flex-start;
+}
+
+#generatorDescription {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#feMentorDescription {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#jubileeDescription {
+  display:none;
+}
+
+#rogueDescription {
+  display:none;
+}
 
 
 /*-------DESKTOP FOOTER SECTION------*/
