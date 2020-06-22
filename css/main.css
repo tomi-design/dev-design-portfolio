@@ -697,6 +697,9 @@ footer .header-divider {
   display:none;
 }
 
+#workFigure {
+  display:flex;
+}
 
 /*-------DESKTOP FOOTER SECTION------*/
 
