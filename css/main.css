@@ -602,7 +602,7 @@ footer .header-divider {
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-    width: 50%;
+  
   }
 	
   header nav a {
@@ -767,11 +767,12 @@ footer .header-divider {
 
 #workNav {
   padding-bottom: 90px;
+  width: 100%;
 }
 
 .half-width {
   display:flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   width: 50%;
 }
@@ -782,6 +783,16 @@ footer .header-divider {
 
 .second-full-width {
   display:none;
+}
+
+#workSkills p {
+  color:#8B8B8B;
+  font-size: 18px;
+}
+
+#secondWorkSkills p{
+  color:#8B8B8B;
+  font-size: 18px;
 }
 
 #workEmailSection {
