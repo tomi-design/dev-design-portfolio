@@ -143,7 +143,7 @@ header .header-divider {
 
 #about {
   color:gray;
-  padding:0 30px 0 0;
+  padding-bottom:15px;
 }
 
 #main {
@@ -161,8 +161,9 @@ header .header-divider {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 80%;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom:20px;
 }
 
 #skills {
@@ -170,14 +171,16 @@ header .header-divider {
 }
 
 #workNav {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   padding-bottom: 30px;
+  font-size: 20px;
 }
 
 #workProjects {
   color: #FF7575;
+  font-size: 30px;
 }
 
 #feTitle {
@@ -290,6 +293,7 @@ main figure {
   align-items: center;
   font-family: 'Cutive Mono', monospace;
   color:gray;
+  font-size: 20px;
 }
 
 .workFigure {
@@ -306,11 +310,17 @@ main figure {
   align-items: center;
   font-family: 'Cutive Mono', monospace;
   color:gray;
+  font-size: 20px;
+}
+
+#quoteImg{
+
 }
 
 #apparelImg {
-
+  
 }
+
 #workSkills {
   color: #F69D8E;
 }
@@ -392,7 +402,32 @@ footer .header-divider {
 }
 
 .greeting {
-  padding-top: 20px;
+  padding: 10px 0;
+}
+
+.social-med{
+  width:100%;
+}
+
+.social-wrapper {
+  width:90%;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin:0 auto;
+  padding-top:30px;
+}
+
+#email {
+  padding: 40px 0;
+}
+
+#envelope {
+  padding-right:15px;
+}
+
+#linkedin {
+  padding-right:30px;
 }
 /* ==========================================================================
    Helper classes
@@ -509,7 +544,25 @@ footer .header-divider {
 	display:none;
   }
 
- 
+ #jubilee-img {
+   width:400px;
+   height:215px;
+ }
+
+ #rogue-img {
+   width:400px;
+   height:215px;
+ }
+
+ #unplugged-img {
+   width:400px;
+   height:215px;
+ }
+
+ #tomii-img{
+   width:400px;
+   height:215px;
+ }
 	
 /*-------TABLET FOOTER STYLES------*/
 
@@ -519,6 +572,10 @@ footer .header-divider {
 	
   .email p {
     font-size: 18px;
+  }
+
+  #envelope {
+    padding-right:15px;
   }
 }
 
@@ -627,7 +684,27 @@ footer .header-divider {
     color: #8B8B8B;
     font-size: 20px;
   }
-  
+
+  #jubilee-img {
+    width:500px;
+    height:266px;
+  }
+ 
+  #rogue-img {
+    width:500px;
+    height:266px;
+  }
+ 
+  #unplugged-img {
+    width:500px;
+    height:266px;
+  }
+ 
+  #tomii-img{
+    width:500px;
+    height:266px;
+  }
+
   .design-work {
     align-items: flex-start;
     width: 100%;
@@ -662,6 +739,7 @@ footer .header-divider {
 
   .social-wrapper {
     padding-top:40px;
+    width:100%;
   }
 
   #envelope{
