@@ -223,6 +223,19 @@ main figure {
   display:none;
 }
 
+.responsive {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+.responsive figure{
+  margin: 0;
+}
+
+
 .design-work {
   display: flex;
   flex-direction: column;
@@ -614,7 +627,7 @@ footer .header-divider {
     color: #8B8B8B;
     font-size: 20px;
   }
-
+  
   .design-work {
     align-items: flex-start;
     width: 100%;
@@ -641,6 +654,28 @@ footer .header-divider {
     width: 100%;
     height: auto;
   }
+
+  .design-work .text-container p {
+    color:#8B8B8B;
+    font-size: 20px;
+  }
+
+  .social-wrapper {
+    padding-top:40px;
+  }
+
+  #envelope{
+    padding-right:20px;
+  }
+  
+  #email {
+    text-decoration: none;
+  }
+
+  #linkedin {
+    padding-right:30px;
+  }
+
 
 /*-------DESKTOP MAIN SECTION (WORK PAGE)------*/
 
