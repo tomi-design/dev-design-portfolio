@@ -329,18 +329,10 @@ main figure {
 
 }
 
+
+
 #workDescBlackboard {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Cutive Mono', monospace;
-  color:rgb(109, 109, 109);
-  color: #ff7f68;
-  font-size: 20px;
-  padding-bottom: 60px;
-  width:80%;
-  text-align: left;
-  font-weight: 300;
+  display:none;
 }
 
 .workFigure {
@@ -397,6 +389,7 @@ main figure {
 
 #workEmail {
   color:gray;
+  text-decoration: none;
 }
 
 .full-width {
@@ -731,7 +724,7 @@ footer .header-divider {
   }
   
   #workDescBlackboard {
-    display:none;
+  
   }
 
   .example {
@@ -854,6 +847,15 @@ footer .header-divider {
   width: 50%;
 }
 
+
+#projectHeadLine {
+  width:100%;
+}
+
+#workProjects {
+  font-size:32px;
+}
+
 #apparelDescription {
   display:none;
 }
@@ -890,6 +892,13 @@ footer .header-divider {
   align-items: flex-start;
 }
 
+#articlesDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 #jubileeDescription {
   display:none;
 }
@@ -902,7 +911,38 @@ footer .header-divider {
   display:flex;
 }
 
-#apparelDescription {
+/*#workDescBlackboard {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cutive Mono', monospace;
+  color:rgb(109, 109, 109);
+  color: #ff7f68;
+  font-size: 20px;
+  padding-bottom: 60px;
+  width:80%;
+  text-align: left;
+  font-weight: 300;
+}*/
+
+
+#whm-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text-container {
+	display:block;
+    width: 40%;
+    padding-left: 100px;
+	font-family: 'Cutive Mono', monospace;
+    color: #8B8B8B;
+    font-size: 20px;
+  }
+
+/*#apparelDescription {
   display:flex;
   justify-content: center;
   align-items: center;
@@ -912,7 +952,7 @@ footer .header-divider {
   color: #F69D8E;
   font-size: 20px;
   width:80%;
-}
+}*/
 /*-------DESKTOP FOOTER SECTION------*/
 
 	
