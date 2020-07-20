@@ -778,6 +778,56 @@ footer .header-divider {
   }
 }
 
+/*-------------WORK PAGE TABLET------------*/
+
+
+header .content-wrapper {
+  width:80%;
+}
+
+#workProjects {
+  font-size: 30px;
+}
+
+#whm-work {
+  text-align: right;
+}
+
+.whm-tablet img {
+  width: 70%;
+}
+
+.work-example-text h2{
+  color:rgb(139, 139, 139);
+  color: #FF7575;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.work-example-text p {
+  color:rgb(112, 112, 112);
+  font-size: 18px;
+}
+
+.skills-section .header-divider {
+  margin-bottom: 40px;
+}
+
+#skills-title {
+  font-size: 30px;
+}
+
+.skills-list {
+  font-size: 18px;
+}
+
+.footer-separator p {
+  font-size: 24px;
+}
+
+.email p {
+  font-size: 24px;
+}
 
 @media only screen and (min-width: 1200px) {
 	
