@@ -102,6 +102,9 @@ header nav a {
   text-decoration: none;
 }
 
+header nav a:hover {
+  color:red;
+}
 a:link {
   color: #F69D8E;
 }
@@ -283,6 +286,10 @@ footer .header-divider {
 
 .email a {
   text-decoration: none;
+}
+
+.emailaddress:hover {
+  color:red;
 }
 
 .greeting {
@@ -533,8 +540,8 @@ footer .header-divider {
 }
 
 .insure-mobile img {
-  width:50%;
-  box-shadow: rgb(145, 145, 145) 20px 20px 40px;
+  width:100%;
+  /*box-shadow: rgb(145, 145, 145) 20px 20px 40px;*/
 
 }
 
@@ -618,7 +625,9 @@ footer .header-divider {
 }
 
 
-
+.workEmail:hover {
+color:red; 
+}
 
 
 
@@ -1082,11 +1091,11 @@ footer .content-wrapper {
 }
 
 #about:hover {
-  color:gray;
+  color:red;
 }
 
 #main:hover {
-  color:gray;
+  color:red;
 }
 
 
@@ -1101,6 +1110,7 @@ footer .content-wrapper {
 
 #workProjects {
   font-size:32px;
+  font-weight: normal;
 }
 
 
