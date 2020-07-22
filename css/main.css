@@ -691,10 +691,12 @@ color:red;
   justify-content: center;
   margin:0 auto;
   width:100%;
-  padding-bottom:10px;
+  padding:10px 0 10px 10px;
   margin-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  border:rgb(145, 145, 145) solid 1px;
+  border-radius: 10px;
 }
 
 label {
@@ -708,10 +710,12 @@ label {
   align-items: center;
   justify-content: center;
   width:100%;
-  padding-bottom: 50px;
+  padding: 10px 0 50px 10px;
   border-radius: 10px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  border:rgb(145, 145, 145) solid 1px;
+  border-radius: 10px;
 }
 
 .contact-form button {
@@ -725,6 +729,11 @@ label {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
+
+.contact-form button:hover {
+  background-color: rgb(255, 196, 196);
+}
+
 
 form {
   display:flex;
@@ -934,7 +943,6 @@ header .content-wrapper {
   font-size: 18px;
 }
 
-
 .insure-mobile {
   display:none;
 }
@@ -951,16 +959,12 @@ header .content-wrapper {
   align-items: center;
 }
 
-
-
 .insure-ipad img {
   display:flex;
   justify-content: center;
   align-items: center;
   width:100%;
 }
-
-
 
 .skills-section .header-divider {
   margin-bottom: 40px;
@@ -981,6 +985,54 @@ header .content-wrapper {
 #together {
   font-size: 22px;
 }
+
+/*---------TABLET CONTACT PAGE----------*/
+
+
+#about {
+  font-size: 24px;
+}
+
+#main {
+  font-size: 24px;
+}
+
+.contact-form {
+  width:80%;
+}
+
+.contact-title {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.contact-form input {
+  padding:18px 10px;
+  font-size: 18px;
+  border:rgb(145, 145, 145) solid 1px;
+  border-radius: 10px;
+}
+
+.contact-form textarea {
+  font-size: 18px;
+  padding:18px 10px 60px 10px;
+  border:rgb(145, 145, 145) solid 1px;
+
+}
+
+.contact-form button {
+  margin-top: 60px;
+  font-size: 22px;
+  padding:20px 40px
+}
+
+.contact-form button:hover {
+  background-color: rgb(255, 196, 196);
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1273,11 +1325,6 @@ footer .content-wrapper {
 
 
 
-
-
-
-
-
 #workFigure {
   display:flex;
 }
@@ -1315,6 +1362,21 @@ footer .content-wrapper {
   margin-top: 200px;
 }
 
+
+
+/*------------DESKTOP CONTACT FORM ----------*/
+
+.contact-form {
+  width:50%;
+}
+
+#footer-separator {
+  padding-top: 160px;
+}
+
+.contact-form button:hover {
+  background-color: rgb(255, 196, 196);
+}
 
 
 }
