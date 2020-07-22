@@ -674,8 +674,8 @@ color:red;
 
 .contact-title h1 {
   font-family: 'Homemade Apple', cursive;
-
 }
+
 .contact-form {
   display:flex;
   flex-direction: column;
@@ -754,8 +754,36 @@ form {
   padding-top: 80px;
 }
 
+/*------------MOBILE THANK YOU PAGE ----------*/
 
+.thanks-page {
+  width:100%;
+  padding-bottom: 200px;
+}
 
+.thanks-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding-top:50px;
+}
+
+.thanks-wrapper p {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 25px;
+}
+
+#thanksNav #about {
+  color:#ff8989;
+}
+
+#thanksNav #main {
+  color:#ff8989;
+}
 
 
 /* ==========================================================================
@@ -1032,6 +1060,23 @@ label {
 .contact-form button:hover {
   background-color: rgb(255, 196, 196);
 }
+
+/*-------------TABLET THANKS PAGE------*/
+
+
+.thanks-wrapper {
+  padding-bottom: 60%;
+}
+
+.thanks-wrapper p {
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+
+
+
+
 
 }
 
@@ -1378,6 +1423,25 @@ footer .content-wrapper {
   background-color: rgb(255, 196, 196);
 }
 
+
+/*---------THANKS PAGE DESKTOP--------------*/
+
+
+.thanks-wrapper {
+  padding-bottom: 0;
+}
+
+.footer-separator {
+  width:100%;
+}
+
+#thanksNav #main:hover {
+  color: red;
+}
+
+#thanksNav #about:hover {
+  color: red;
+}
 
 }
 
