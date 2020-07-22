@@ -754,6 +754,8 @@ form {
   padding-top: 80px;
 }
 
+
+
 /*------------MOBILE THANK YOU PAGE ----------*/
 
 .thanks-page {
@@ -1423,7 +1425,9 @@ footer .content-wrapper {
   background-color: rgb(255, 196, 196);
 }
 
-
+.contactlink:hover {
+  color:red;
+}
 /*---------THANKS PAGE DESKTOP--------------*/
 
 
