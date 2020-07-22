@@ -493,9 +493,6 @@ footer .header-divider {
   width:90%;
 }
 
-
-
-
 .insure-wrap {
   display:flex;
   flex-direction: column;
@@ -542,7 +539,6 @@ footer .header-divider {
 .insure-mobile img {
   width:100%;
   /*box-shadow: rgb(145, 145, 145) 20px 20px 40px;*/
-
 }
 
 .insure a {
@@ -567,11 +563,6 @@ footer .header-divider {
 .insure-ipad {
   display:none;
 }
-
-
-
-
-
 
 .pink-back {
   display:flex;
@@ -635,7 +626,8 @@ padding-top: 50px;
 #together {
   font-size: 20px;
 }
-/*----------WORK FOOTER ---------------*/
+
+/*----------MOBILE WORK FOOTER ---------------*/
 
 
 .work-footer {
@@ -658,18 +650,100 @@ color:red;
 }
 
 
+/*-----------MOBILE CONTACT FORM ------------*/
 
+.contact-main {
+  width: 100%;
+  padding-top: 20px;
+}
 
+.contact-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+}
 
+.contact-title {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:90%;
+}
 
+.contact-title h1 {
+  font-family: 'Homemade Apple', cursive;
 
+}
+.contact-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
 
+.contact-form input {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+  width:100%;
+  padding-bottom:10px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
 
+label {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffb4b4;
+  font-size: 16px;
+}
+.contact-form textarea {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
 
+.contact-form button {
+  border:none;
+  background-color:#ff8989;
+  margin-top: 30px;
+  padding:10px 30px;
+  color:white;
+  border-radius: 10px;
+  align-self: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
 
+form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width:90%;
+}
 
+.contact-social-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
 
-
+#footer-separator {
+  padding-top: 80px;
+}
 
 
 
