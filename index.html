@@ -7,8 +7,8 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <link rel='icon' href='favicon.ico' type='image/x-icon' />
+  <!-- <link rel="apple-touch-icon" href="icon.png">
+  <link rel='icon' href='favicon.ico' type='image/x-icon' /> -->
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -23,6 +23,13 @@
   <!--fontawesome-->
   <script src="https://kit.fontawesome.com/a654178576.js" crossorigin="anonymous"></script>
 
+  <!----favicon-->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
 </head>
 
 <body>
@@ -31,11 +38,12 @@
     <div class="content-wrapper">
       <div class="header-container">
         <nav>
-          <a class="underline" href="work/index.html">samples</a>
+          <a class="underline" href="work/index.html">work</a>
           <a class="underline" href="https://tomii.design/about-me/">about</a>
           <a class="underline" href="contact/index.html">contact</a>
         </nav>
         <div class="head-line">
+          <!-- <img src="img/tlogo.png" alt="tomomi iwamoto logo"> -->
           <h1>Tomomi Iwamoto</h1>
           <p>web developer / designer</p>
         </div>
@@ -52,17 +60,32 @@
     <div class="content-wrapper">
       <div class="dev-separator"> </div>
       <div id="work">
+
+
         <div class="dev-work">
-          <div class="example">
+
+
+          <!-- <div class="example">
             <figure><a href="https://tomi-iwamoto.github.io/jubilee/" target="_blank"><img id="jubilee-img"
                   src="img/jubilee-ss.png" alt="jubilee austen" height="160" width="300"></a></figure>
             <div class="text-container">
-              <p>Jubilee Austen Project /<br> HTML5 & CSS Website</p>
+              <p>Jubilee Austen Project /</p>
               <p>Project based on a Photoshop design comp. This webpage is ideal for portfolios and small businesses.
               </p>
             </div>
-          </div>
+          </div> -->
+
           <div class="example">
+            <figure> <a href="https://tomi-iwamoto.github.io/social-media-dashboard/" target="_blank"><img
+                  id="socmed-img" src="img/socmed.png" alt="social media dashboard" height="160" width="300"></a>
+            </figure>
+            <div class="text-container">
+              <p>Social Media Dashboard /</p>
+              <p>Frontend Mentor project using Javascript to toggle light and dark themes.</p>
+            </div>
+          </div>
+
+          <!-- <div class="example">
             <figure> <a href="https://tomi-iwamoto.github.io/rogue-responsive/" target="_blank"><img id="rogue-img"
                   src="img/rogue-ss.png" alt="rogue pickings" height="160" width="300"></a></figure>
             <div class="text-container">
@@ -70,17 +93,55 @@
               <p>A clean, organized webpage created through the use of a Photoshop design comp for a fictional food
                 truck company.</p>
             </div>
-          </div>
+          </div> -->
+
           <div class="example">
             <figure> <a href="https://tomi-iwamoto.github.io/unplugged-2/" target="_blank"><img id="unplugged-img"
                   src="img/unplugged-ss.jpg" alt="unplugged retreat" height="160" width="300"></a></figure>
             <div class="text-container">
               <p>Unplugged Retreat /</p>
-              <p>A multi-paged, responsive site. Perfect for organizations and events.</p>
+              <p>A multi-paged, responsive site, built using a Photoshop design comp. Perfect for organizations and events.</p>
+              <p>HTML / CSS</p>
             </div>
           </div>
+        <!-- </div> -->
+
+
+        <div class="example">
+          <figure>
+            <a href="https://tomi-iwamoto.github.io/bookmark/" target="_blank">
+              <img id="bookmark-img" src="img/bookmarklight.png" alt="bookmark" height="160" width="300">
+            </a>
+          </figure>
+          <div class="text-container">
+            <p>Bookmark /</p>
+            <p>Fictional company website with mobile slider menu. Built with Frontend Mentor design comp.</p>
+            <p>JavaScript / jQuery</p>
+          </div>
         </div>
+
+
+        <div class="example">
+          <figure>
+            <a href="https://tomi-iwamoto.github.io/huddle/" target="_blank">
+              <img id="huddle-img" src="img/huddledark.png" alt="huddle" height="160" width="300">
+            </a>
+          </figure>
+          <div class="text-container">
+            <p>Huddle Landing Page /</p>
+            <p>A simple responsive landing page.</p>
+            <p>HTML / CSS</p>
+          </div>
+        </div>
+
+
+
+
       </div>
+
+
+
+
 
 
 
@@ -90,7 +151,7 @@
           <div class="header-divider"></div>
         </div>
         <div class="example">
-          <figure> <a href="https://tomii.design/tomii-design/index.html" target="_blank"><img id="tomii-img"
+          <figure> <a href="https://tomii.design/design/index.html" target="_blank"><img id="tomii-design design page"
                 src="img/tomii-ss.png" alt="tomii designs" height="160" width="300"></a></figure>
           <div class="text-container">
             <p>Tomii Design Portfolio /</p>
@@ -117,12 +178,12 @@
 
 
       <div class="contact">
-          <div class="greeting">
-            <!-- <p>let's meet! =)</p> -->
+        <div class="greeting">
+          <!-- <p>let's meet! =)</p> -->
 
-            <!-- <p class="contactlink">contact form</p> -->
-              <!-- <a id="workEmail" href="mailto:tomomi@tomii.design" target="_BLANK"><p class="workEmail"><img class="envelope" src="../img/envelope.png" width="30"/>tomomi@tomii.design</p></a> -->
-          </div>
+          <!-- <p class="contactlink">contact form</p> -->
+          <!-- <a id="workEmail" href="mailto:tomomi@tomii.design" target="_BLANK"><p class="workEmail"><img class="envelope" src="../img/envelope.png" width="30"/>tomomi@tomii.design</p></a> -->
+        </div>
       </div>
 
       <div class="social-med">
@@ -132,9 +193,9 @@
           <a href="https://github.com/tomi-iwamoto" target="_blank"><img id="github" src="img/github.png"
               alt="github icon" width="30" /></a> -->
 
-              <a id="workEmail" href="mailto:tomomi@tomii.design"><i class="far fa-envelope"></i></a>
-              <a href="https://www.linkedin.com/in/tomomi-iwamoto/" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="https://github.com/tomi-iwamoto" target="_blank"><i class="fab fa-github"></i></a>
+          <a id="workEmail" href="mailto:tomomi@tomii.design"><i class="far fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/tomomi-iwamoto/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/tomi-iwamoto" target="_blank"><i class="fab fa-github"></i></a>
         </div>
 
       </div>
